@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.likeBtn {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border: 2px solid #aaaa;
+  font-weight: bolder;
+  margin-bottom: 8px;
+  border-radius: 32px;
+  cursor: pointer;
+  transition: 300ms;
+}
+.likeBtn:hover {
+  border-color: red;
+  background-color: red;
+  color: white;
+}
+
+.liked {
+  background-color: red;
+  color: white;
+}
+.error {
+  font-size: 12px;
+}
